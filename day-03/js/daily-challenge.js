@@ -20,3 +20,25 @@
 // const number1 = parseInt(prompt("number 1?", 10));
 // const number2 = parseInt(prompt("number 2?", 10));
 // alert(number1 + number2);
+
+// Ask for the user's first name
+// const firstName = prompt("What is your first name?");
+// Ask for the user's last name
+// const lastName = prompt("What is your last name?");
+// Log the user's first name to the console
+// console.log(firstName);
+// Alert the user's last name
+// alert(lastName);
+
+// *BONUS*
+// Ask for the user's birthday
+const bDay = prompt('What is your birthday?')
+// Ask the user to confirm their birthday input
+const correctBday = confirm(bDay + '. Is this correct?');
+// Alert the user's birthday
+if (correctBday) {
+    alert(bDay); 
+} else {
+    alert('incorrect birthday')
+}
+
