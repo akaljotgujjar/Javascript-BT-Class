@@ -32,19 +32,19 @@
 
 // *BONUS*
 // Ask for the user's birthday
-const bDay = prompt("What is your birthday?");
-// Ask the user to confirm their birthday input
-const correctBday = confirm(bDay + ". Is this correct?");
-const pattern = /4\/30\/98/;
+// const bDay = prompt("What is your birthday?");
+// // Ask the user to confirm their birthday input
+// const correctBday = confirm(bDay + ". Is this correct?");
+// const pattern = /4\/30\/98/;
 
-console.log(pattern);
+// console.log(pattern);
 
-const isBDayFormattedCorrectly = bDay.split("/").length === 3;
-console.log(isBDayFormattedCorrectly);
+// const isBDayFormattedCorrectly = bDay.split("/").length === 3;
+// console.log(isBDayFormattedCorrectly);
 
-// Alert the user's birthday
-if (correctBday) {
-  alert(bDay);
-} else {
-  alert("incorrect birthday");
-}
+// // Alert the user's birthday
+// if (correctBday) {
+//   alert(bDay);
+// } else {
+//   alert("incorrect birthday");
+// }
